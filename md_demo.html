@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown Styled Components Demo</title>
+    <style>
+    /* Markdown-styled CSS components */
+
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f8f9fa;
+        color: #222;
+        margin: 2rem;
+        line-height: 1.7;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        line-height: 1.25;
+    }
+
+    h1 { font-size: 2.5em; border-bottom: 2px solid #eaecef; padding-bottom: 0.3em; }
+    h2 { font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: 0.2em; }
+    h3 { font-size: 1.5em; }
+    h4 { font-size: 1.2em; }
+    h5 { font-size: 1em; }
+    h6 { font-size: 0.9em; color: #6a737d; }
+
+    p {
+        margin: 1em 0;
+    }
+
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    ul, ol {
+        margin: 1em 0 1em 2em;
+    }
+
+    li {
+        margin: 0.5em 0;
+    }
+
+    code, pre {
+        font-family: 'Fira Mono', 'Consolas', monospace;
+        background: #f6f8fa;
+        border-radius: 4px;
+    }
+
+    code {
+        padding: 0.2em 0.4em;
+        font-size: 0.95em;
+        color: #e83e8c;
+    }
+
+    pre {
+        padding: 1em;
+        overflow-x: auto;
+        font-size: 0.95em;
+        border: 1px solid #eaecef;
+        margin: 1em 0;
+    }
+
+    blockquote {
+        border-left: 4px solid #dfe2e5;
+        color: #6a737d;
+        padding: 0.5em 1em;
+        background: #f6f8fa;
+        margin: 1em 0;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #eaecef;
+        margin: 2em 0;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #dfe2e5;
+        padding: 0.6em 1em;
+        text-align: left;
+    }
+
+    th {
+        background: #f6f8fa;
+        font-weight: 600;
+    }
+    </style>
+</head>
+<body>
+    <h1>Markdown Styled Components Demo</h1>
+    <p>This page demonstrates various HTML elements styled to look like Markdown-rendered content.</p>
+
+    <h2>Headings</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <h2>Paragraphs &amp; Links</h2>
+    <p>
+        This is a sample paragraph. Visit <a href="https://github.com/">GitHub</a> for more information.
+    </p>
+
+    <h2>Lists</h2>
+    <ul>
+        <li>Unordered list item 1</li>
+        <li>Unordered list item 2</li>
+        <li>Unordered list item 3</li>
+    </ul>
+    <ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+        <li>Ordered list item 3</li>
+    </ol>
+
+    <h2>Code</h2>
+    <p>Inline code: <code>console.log('Hello, world!')</code></p>
+    <pre><code>function greet() {
+    console.log('Hello, world!');
+}</code></pre>
+
+    <h2>Blockquote</h2>
+    <blockquote>
+        This is a blockquote. Markdown blockquotes are great for highlighting information.
+    </blockquote>
+
+    <h2>Horizontal Rule</h2>
+    <hr>
+
+    <h2>Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Supported</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Headings</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Lists</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Code</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Blockquotes</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
