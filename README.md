@@ -1,2 +1,12 @@
-# Airbus-Information
-Info Website On Airbus (BETA)
+# Airbus Information
+
+Welcome to the Airbus Information website! This project provides detailed information about Airbus aircraft, history, and innovations.
+
+## Features
+
+- Overview of Airbus company history
+- Detailed aircraft specifications
+- Latest news and updates
+- Interactive galleries
+
+© 2024 Airbus Information Project
