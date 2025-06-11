@@ -9,4 +9,4 @@ Welcome to the Airbus Information website! This project provides detailed inform
 - Latest news and updates
 - Interactive galleries
 
-© 2024 Airbus Information Project
+© 2025 Airbus Unnofficial Information Project
