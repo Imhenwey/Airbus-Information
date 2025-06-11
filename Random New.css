@@ -1,0 +1,425 @@
+Body {
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://media.wired.com/photos/5931049baa2d0962adab436d/master/pass/Airbus_HP.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #003366;
+    position: center;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px 2.5px #3e4452;
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    position: center;
+    font-size: 18px;
+    color: #333;
+}
+h2 {
+    text-align: center;
+    position: center;
+    font-size: 30px;
+    color: #003366;
+    text-shadow: 1.px 1.px 2.5px #3e4452;
+    margin-top: 20px; /* Increased gap to 30px */
+}
+h5 {
+    text-align: center;
+    position: center;
+    font-size: 30px;
+    color: #003366;
+    text-shadow: 0.5px 0.5px 1px #3e4452;
+    margin-top: 20px; /* Increased gap to 30px */
+}
+
+p {
+    text-align: center;
+    position: center;
+    font-size: 18px;
+    color: #333;
+    text-shadow: 0.5px 0.5px 1px #3e4452;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: #003366; /* Link color */
+    font-weight: bold; /* Makes links bold */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Spacing between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto 0 auto; /* Adds 20px margin above the menu and centers it */
+}
+
+.flex3-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Spacing between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto 0 auto; /* Adds 20px margin above the menu and centers it */
+}
+
+.flex2-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Spacing between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto 0 auto; /* Adds 20px margin above the menu and centers it */
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Spacing between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto 0 auto; /* Adds 20px margin above the menu and centers it */
+}
+
+
+.menu-item {
+    padding: 12px 24px;
+    background: #003366; /* Airbus blue */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.menu-item:hover {
+    background: #005bb5;
+    transform: translateY(-3px);
+}
+
+.menu-item:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+    transition: transform 0.1s ease; /* Quick transition effect */
+}
+
+@keyframes fadeInBottom {
+    0% {
+      transform: translate(-50%, -47%); /* Start from slightly below */
+      opacity: 0; /* Fully transparent */
+    }
+    100% {
+      transform: translate(-50%, -50%); /* Move to original position */
+      opacity: 1; /* Fully visible */
+    }
+  }
+    
+
+.hero {
+    background-color: rgba(255, 255, 255, 0.54); /* Sets the rectangle's color */
+    color: black; /* Text color */
+    padding: 15px; /* Adds space around the text inside the rectangle */
+    border-radius: 15px; /* Rounds the edges of the rectangle */
+    backdrop-filter: blur(8px);
+    width: 900px; /* Adjusts width based on content */
+    position: relative; /* Allows positioning relative to the page */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for element's own dimensions */
+    margin-top: 400px; /* Adds 100px space from the top */
+    margin-bottom: 350px; /* Adds 100px space from the bottom */
+    animation: fadeInBottom 2s ease-out; /* Customize duration and easing */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.flex {
+    text-align: center; /* Aligns text to the top */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Space between buttons */
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto; /* Centers the menu with auto margins */
+    animation: fadeInBottom 1.5s ease-out; /* Customize duration and easing */
+
+}
+
+.flex1 {
+    text-align: center; /* Aligns text to the top */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Space between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto; /* Centers the menu with auto margins */
+}
+.custom-button, .custom-qutton, .customa-button, .custom1-button, .a380-button{
+    display: inline-block; /* Ensures buttons are displayed next to each other */
+    vertical-align: top; /* Aligns buttons to the top */
+    width: 230px; /* Adjust to fit the content */
+    height: 230px; /* Adjust to fit the content */
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center;
+    border-radius: 15px; /* Smooth corners */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Space within the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+    font-family: Arial, sans-serif; /* Font style */
+    position: center; /* Centers the button */
+    margin: 13.5px; /* Space around the buttons */
+    margin-top: 20px; /* Space above the buttons */
+    margin-bottom: 20px; /* Space below the buttons */
+}
+
+.custom-button {
+    background-image: url('https://www.madeinalabama.com/wp-content/webp-express/webp-images/uploads/2024/06/dcom-airbus-success-scaled.jpg.webp'); /* Replace with your image URL */
+}
+
+.custom-button:hover {
+    transform: scale(1.01); /* Slightly enlarges the button on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    filter: brightness(85%); /* Darkens the image on hover */
+}
+
+.custom-button:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+    transition: transform 0.1s ease; /* Quick transition effect */
+}
+
+.custom-qutton {
+    background-image: url('https://www.airbus.com/sites/g/files/jlcbta136/files/styles/w640h720/public/2022-01/Airbus_O%26D_2021_A320neoFAMILY_landscape.jpg?itok=myYr6Oir'); /* Replace with your image URL */
+}
+
+.custom-qutton:hover {
+    transform: scale(1.01); /* Slightly enlarges the button on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    filter: brightness(85%); /* Darkens the image on hover */
+}
+
+.custom-qutton:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+    transition: transform 0.1s ease; /* Quick transition effect */
+}
+
+.customa-button {
+    background-image: url('https://www.airbus.com/sites/g/files/jlcbta136/files/styles/w480h270/public/2021-10/A330-800%20RR%20and%20A330-900%20RR%20-%20in%20flight%20.jpg?h=dc53d0d2&itok=7_DX1JMY'); /* Replace with your image URL */
+}
+
+.customa-button:hover {
+    transform: scale(1.01); /* Slightly enlarges the button on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    filter: brightness(85%); /* Darkens the image on hover */
+}
+
+.customa-button:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+    transition: transform 0.1s ease; /* Quick transition effect */
+}
+
+.custom-button-main-text, .custom-qutton-main-text, .customa-button-main-text .custom1-button-main-text .a380-button-main-text {
+    position: absolute; /* Allows positioning within the button */
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for text dimensions */
+    font-size: 24px; /* Text size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+    color: white; /* Text color */
+}
+
+.custom1-button {
+    background-image: url('https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/w640h480/public/2022-08/A350-900.jpg?itok=BMyMMhTS'); /* Replace with your image URL */
+}
+.custom1-button:hover {
+    transform: scale(1.01); /* Slightly enlarges the button on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    filter: brightness(85%); /* Darkens the image on hover */
+}
+
+.custom1-button:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+    transition: transform 0.1s ease; /* Quick transition effect */
+}
+
+.a380-button {
+    background-image: url('https://static-ssl.businessinsider.com/image/56ab94e8c08a80e01b8bd8ff-2400/a380_take_off_airbus_livery.jp2'); /* Replace with your image URL */
+}
+.a380-button:hover {
+    transform: scale(1.01); /* Slightly enlarges the button on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    filter: brightness(85%); /* Darkens the image on hover */
+}
+
+.a380-button:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+    transition: transform 0.1s ease; /* Quick transition effect */
+}
+
+.fle {
+    text-align: center; /* Aligns text to the top */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Space between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto; /* Centers the menu with auto margins */
+}
+
+.image-link [href="a220.html"] {
+    background-image: url('https://www.airbus.com/sites/g/files/jlcbta136/files/styles/w640h720/public/2022-01/Airbus_O%26D_2021_A220_landscape.jpg?itok=0v3g4k5d'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 230px; /* Adjust to fit the content */
+    height: 230px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+}
+
+.image1 {
+    background-image: url('images/e.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 88 0px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image2 {
+    background-image: url('https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/w640h480/public/2025-01/3.jpg?h=b9566f27&itok=VkzGrtQI'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image3 {
+    background-image: url('https://images.aircharterservice.com/global/aircraft-guide/group-charter/airbus-a319-1.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image4 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg/960px-Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image5 {
+    background-image: url('https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/w640h512/public/2024-11/a321.png?h=3a37fd15&itok=WdLYVBok'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image6 {
+    background-image: url('https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/w640h480/public/2021-10/A320neo-Take-off.jpg?itok=C2i6WeG0'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image7 {
+    background-image: url('https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2022-06/A321XLR%20%20-%20DESKTOP%20-%2002.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.image11 {
+    background-image: url('https://images.aircharterservice.com/global/aircraft-guide/group-charter/airbus-a330-200-1.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    width: 880px; /* Adjust to fit the content */
+    height: 300px; /* Adjust to fit the content */
+    border-radius: 15px; /* Smooth corners */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+}
+.flex-containerb {
+    display: below; /* Corrected from 'below' to 'flex' */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Spacing between buttons */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35); /* Slight transparency */
+    border-radius: 12px; /* Rounded edges for the box */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensures the box fits exactly around the buttons */
+    margin: 20px auto; /* Centers the menu with auto margins */
+}
